@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Temperature Converter</h1>
+    <p>Convert between Celsius, Fahrenheit, and Kelvin easily!</p>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <section>
+      <article>
+        <label for="temperature-input">Enter Temperature:</label>
+        <input type="text" id="temperature-input" placeholder="e.g., 100">
+      </article>
+
+      <article>
+        <p>Select the Input Unit:</p>
+        <input type="radio" id="celsius" name="unit" value="Celsius" checked>
+        <label for="celsius">Celsius</label>
+
+        <input type="radio" id="fahrenheit" name="unit" value="Fahrenheit">
+        <label for="fahrenheit">Fahrenheit</label>
+
+        <input type="radio" id="kelvin" name="unit" value="Kelvin">
+        <label for="kelvin">Kelvin</label>
+      </article>
+
+      <article>
+        <button id="convert-button">Convert</button>
+      </article>
+
+      <article>
+        <p id="output">Converted Temperature will appear here.</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Temperature Converter. All rights reserved.</p>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
